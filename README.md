@@ -119,5 +119,5 @@ GO
 
 Acessar o arquivo appsettings.json no projeto de cada um dos microsserviços e alterar a string de conexão com os dados de servidor local.
 
-Implementei a Swagger nas APIs para documentação e testes. Entretanto, as chamadas as apis podem ser realizadas através do Postman.
+Implementei o Swagger nas APIs para documentação e testes. Entretanto, as chamadas as apis podem ser realizadas através do Postman.
 
