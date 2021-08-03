@@ -9,7 +9,8 @@ Infraestrutura: No que se refere a infraestrutura, fiz a escolha do provedor de 
 
 Deploy: Para deploy da aplicação, projetou-se uma esteira AWS. Utilizando os serviços da Pipeline da provedora de Cloud. O processo inicia-se com um commit do dockerfile no git e após o processo de build a imagem é registrada no ECR e gerado um buildspec.yml que gera uma nova taskdefinition que atualiza o serviço do ECS.
 
-A arquitetura de infra projetada pode ser vista no desenho abaixo:
+A arquitetura de infra projetada pode ser vista no desenho conforme imagem ![image](https://user-images.githubusercontent.com/12587214/127944792-a2a36fd4-2f70-4e63-908a-787b0fc2df93.png)
+
 
   
 
